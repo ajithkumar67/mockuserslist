@@ -1,0 +1,118 @@
+[{
+"name": "ArunKumar",
+"age": 20,
+"dob": "20-10-2000",
+"firstName": "Arun",
+"lastName": "Kumar",
+"more": {
+"address_line1": "Alagapuri",
+"address_line2": "Trichy",
+"address_line3": "India",
+"phone": "9379133639"
+}
+},
+{
+"name": "Ajithkumar",
+"age": 23,
+"dob": "29-09-2000",
+"firstName": "Ajith",
+"lastName": "Kumar",
+"more": {
+"address_line1": "Mulanur",
+"address_line2": "Tiruppur",
+"address_line3": "Tamil Nadu",
+"phone": "9379122639"
+}
+},
+{
+"name": "Clark kent",
+"age": 30,
+"dob": "28-16-1990",
+"firstName": "Clark",
+"lastName": "Kent",
+"more": {
+"address_line1": "Metropolis",
+"address_line2": "Kansas",
+"address_line3": "United states",
+"phone": "9379123639"
+}
+},
+{
+"name": "Bruce wayne",
+"age": 30,
+"dob": "23-12-1990",
+"firstName": "Bruce",
+"lastName": "Wayne",
+"more": {
+"address_line1": "Gotham",
+"address_line2": "texas",
+"address_line3": "United states",
+"phone": "9379358639"
+}
+},
+{
+"name": "Oliver queen",
+"age": 34,
+"dob": "24-04-1986",
+"firstName": "Oliver",
+"lastName": "Queen",
+"more": {
+"address_line1": "Star city",
+"address_line2": "New york",
+"address_line3": "United states",
+"phone": "9341833639"
+}
+},
+{
+"name": "Barry allen",
+"age": 20,
+"dob": "12-05-2000",
+"firstName": "Barry",
+"lastName": "Allen",
+"more": {
+"address_line1": "Central City",
+"address_line2": "New york",
+"address_line3": "United states",
+"phone": "93791322732"
+}
+},
+{
+"name": "Hal Jordan",
+"age": 40,
+"dob": "10-10-1980",
+"firstName": "Harold",
+"lastName": "Jordan",
+"more": {
+"address_line1": "Coast City",
+"address_line2": "West",
+"address_line3": "United states",
+"phone": "941932133639"
+}
+},
+{
+"name": "Wally west",
+"age": 20,
+"dob": "30-10-2000",
+"firstName": "Wallace",
+"lastName": "West",
+"more": {
+"address_line1": "Bludhaven",
+"address_line2": "California",
+"address_line3": "United states",
+"phone": "9379133639"
+}
+},
+{
+"name": "Richard Grayson",
+"age": 23,
+"dob": "20-10-1987",
+"firstName": "Richard",
+"lastName": "Grayson",
+"more": {
+"address_line1": "San francisco",
+"address_line2": "California",
+"address_line3": "United states",
+"phone": "5103853291"
+}
+}
+]

@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>records</title>
+</head>
+<body>
+    <nav>
+        <div class="logo">Brand</div>
+        <input type="checkbox" id="click">
+        <label for="click" class="menu-btn">
+          <i class="fas fa-bars"></i>
+        </label>
+        <ul>
+          <li><a id="indexnav" href="index.html">Home</a></li>
+          <li><a id="signupnav" href="signup.html">Signup</a></li>
+          <li><a id="loginnav" href="login.html">Login</a></li>
+        </ul>
+      </nav>
+      <div class="cards" id="usercard">
+
+      </div>
+    
+
+      <div class="modal__wrapper">
+          <div class="modal__container">
+              <button class="close">&times;</button>
+              <h2>User Details</h2>
+              <div id="mod_display">
+
+              </div>
+              <div class="action">
+              <button class="btn__purple" onclick="prevg()">Prev</button>
+              <button class="btn__purple" onclick="nextg()">Next</button>
+              </div>
+          </div>
+      </div>
+
+      <script src="script.js"></script>
+</body>
+
+</html>

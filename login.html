@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="style.css">
+    <script src="login.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+</head>
+
+<body>
+    <nav>
+        <div class="logo">Brand</div>
+        <input type="checkbox" id="click">
+        <label for="click" class="menu-btn">
+          <i class="fas fa-bars"></i>
+        </label>
+        <ul>
+         <li><a id="indexnav" href="index.html">Home</a></li>
+         <li><a id="signupnav" href="signup.html">Signup</a></li>
+         <li><a id="loginnav" href="login.html">Login</a></li>
+       </ul>
+      </nav>
+      <div class="wrapper">
+        <div class="title">
+           Login Form
+        </div>
+        <form id="login" onsubmit="checkloginl()" action="index.html">
+           <div class="field">
+              <input type="text" id="usemail2" value="" required>
+              <label>Email Address</label>
+           </div>
+           <div class="field">
+              <input type="password" id="uspass2" value="" required>
+              <label>Password</label>
+           </div>
+           
+           <div class="field">
+              <input type="submit" value="Login">
+           </div>
+           <div class="signup-link">
+              Not a member? <a href="signup.html">Signup now</a>
+           </div>
+        </form>
+     </div>
+</body>
+</html>

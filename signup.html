@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="style.css">
+    <script src="signup.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>signup</title>
+</head>
+<body>
+    <nav>
+        <div class="logo">UserBase</div>
+        <input type="checkbox" id="click">
+        <label for="click" class="menu-btn">
+          <i class="fas fa-bars"></i>
+        </label>
+        <ul>
+         <li><a id="indexnav" href="index.html">Home</a></li>
+         <li><a id="signupnav" href="signup.html">Signup</a></li>
+         <li><a id="loginnav" href="login.html">Login</a></li>
+       </ul>
+      </nav>
+      <div class="wrapper">
+        <div class="title">
+           Signup Form
+        </div>
+        <form id="signup" onsubmit="signup()" action="login.html">
+           <div class="field">
+              <input type="text" id = "usname1" value="" required>
+              <label>Username</label>
+           </div>
+           <div class="field">
+            <input type="text" id = "usemail1" value="" required>
+            <label>Email Address</label>
+         </div>
+           <div class="field">
+              <input type="password" id = "uspass1" value="" required>
+              <label>Password</label>
+           </div>
+           
+           <div class="field">
+              <input type="submit" value="signup">
+           </div>
+           <div class="signup-link">
+              Already a member? <a href="login.html">Login now</a>
+           </div>
+        </form>
+     </div>
+</body>
+</html>
